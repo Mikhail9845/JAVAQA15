@@ -1,5 +1,3 @@
-import java.util.Objects;
-
 public class Smartphone extends Product {
     protected String name;
     protected String manufacturer;
@@ -9,25 +7,4 @@ public class Smartphone extends Product {
         this.name = name1;
         this.manufacturer = manufacturer;
     }
-
-    @Override
-    public String getName() {
-        return name;
-    }
-
-    @Override
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getManufacturer() {
-        return manufacturer;
-    }
-
-    public void setManufacturer(String manufacturer) {
-        this.manufacturer = manufacturer;
-    }
-
-
 }
-
